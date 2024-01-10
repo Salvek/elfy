@@ -22,12 +22,12 @@ How to run with Docker (pull from DockerHub):
 
 1. Pull image from DockerHub:
 
-        docker pull kamsaf42/elf_manager:latest
+        docker pull salvekk/santas-elf-menager:latest
 
 
 2. Run image with docker:
 
-        docker run kamsaf42/elf_manager
+        docker run salvekk/santas-elf-menager
 
 -------------------------------------------------------
 
@@ -35,12 +35,12 @@ How to run with Docker (build image):
 
 1. Build image when in /app directory with command:
 
-        docker build -t elf_manager .
+        docker build -t santas-elf-menager .
 
 
 2. Run image with docker:
 
-        docker run -d -p 5000:5000 elf_manager
+        docker run -d -p 5000:5000 santas-elf-menager
 
 
 -------------------------------------------------------
